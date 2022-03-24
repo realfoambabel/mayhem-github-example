@@ -3,10 +3,9 @@
 #include <stdlib.h>
 
 int checkme(char *buf) {
-  if(buf[0] == 'o' && buf[1] == 'k')
-    return 0;
-  abort(); // New bug!
-  return 1;
+  if(buf[0] == 'b' && buf[1] == 'u' && bug[2] == 'g')
+    abort(); // New bug!
+  return 0;
 }
 
 int main(int argc, char *argv[]) {
