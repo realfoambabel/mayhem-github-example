@@ -5,6 +5,7 @@
 int checkme(char *buf) {
   if(buf[0] == 'o' && buf[1] == 'k')
     return 0;
+  abort(); // New bug!
   return 1;
 }
 
