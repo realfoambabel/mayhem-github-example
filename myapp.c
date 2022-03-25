@@ -4,7 +4,7 @@
 
 int checkme(char *buf) {
   if(buf[0] == 'b' && buf[1] == 'u' && buf[2] == 'g')
-    abort(); // New bug!
+    return 1;
   return 0;
 }
 
